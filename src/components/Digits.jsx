@@ -38,6 +38,7 @@ const Digits = props => (
         </li>
       ))}
     </Block>
+
     <Block {...props}>
       {numbers.map(number => (
         <li
@@ -50,6 +51,7 @@ const Digits = props => (
         </li>
       ))}
     </Block>
+    
   </div>
 );
 
